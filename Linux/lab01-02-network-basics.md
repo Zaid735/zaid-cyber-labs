@@ -1,4 +1,4 @@
-#Lab 01 & 02 – Network Basics and Attack Surface
+# Lab 01 & 02 – Network Basics and Attack Surface
 ## Objective
 The goal of this lab was to understand basic network interfaces, connectivity, and how network services create and remove attack surface on a system.
 ## Environment
