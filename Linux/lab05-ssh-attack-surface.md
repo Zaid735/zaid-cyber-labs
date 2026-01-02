@@ -1,10 +1,10 @@
-#Lab 05 – SSH Attack Surface Analysis
+# Lab 05 – SSH Attack Surface Analysis
 
-##Objective
+## Objective
 
 To understand why SSH, despite being a secure protocol, can become a major attack surface when exposed unnecessarily, and to observe how service exposure, listening interfaces, and attacker behavior affect system security.
 
-##Environment
+## Environment
 
 OS: Kali Linux
 
@@ -12,7 +12,7 @@ Platform: VirtualBox (NAT)
 
 User: kali
 
-##Command Used
+## Command Used
 
 systemctl status ssh
 sudo systemctl start ssh
@@ -23,7 +23,7 @@ ss -tanp | grep 22
 sudo journalctl -u ssh --no-pager | tail -20
 
 
-##Observation 
+## Observation 
 
 Observations
 
@@ -39,6 +39,6 @@ SSH logs were generated even for successful or failed connection attempts.
 
 Stopping the SSH service immediately removed port 22 and eliminated the attack surface
 
-##Security Takeaway
+## Security Takeaway
 
 SSH is secure by design, but enabling it on all interfaces without necessity creates a persistent and highly targeted attack surface that attackers can continuously probe, brute-force, and exploit over time.
