@@ -1,5 +1,7 @@
 # Lab 03 – TCP vs UDP Visibility and Security Implications
 
+This lab demonstrates how TCP and UDP differ in visibility and state handling, and why TCP services create a clearer attack surface than UDP-based services.
+
 ## Objective
 The objective of this lab was to understand the behavioral differences between TCP and UDP, specifically how each protocol exposes connection information and how that affects detection and monitoring from a security perspective.
 

@@ -1,5 +1,7 @@
-
 # Lab 04 – SSH Service Exposure and Session Monitoring
+
+Shows how network exposure is created and removed by starting and stopping services, reinforcing that processes—not ports—create attack surface.
+
 ## Objective
 The objective of this lab was to observe how enabling and disabling the SSH service affects system exposure, and how TCP connection states can be used to monitor active SSH sessions.
 

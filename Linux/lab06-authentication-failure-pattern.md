@@ -1,5 +1,7 @@
 # 📄 Lab 06 – Authentication Failure Patterns (SSH)
 
+Analyzes why failed SSH authentication attempts still provide intelligence to attackers and early warning signals to defenders.
+
 ## Objective
 
 The objective of this lab was to understand how failed SSH authentication attempts reveal attacker behavior, why brute-force attacks are still effective even when they fail, and how defenders use authentication logs to detect malicious activity early.

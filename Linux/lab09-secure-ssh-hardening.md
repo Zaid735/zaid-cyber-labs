@@ -1,5 +1,7 @@
 # Lab 09 – Secure SSH Hardening
 
+Compares password-based and key-based authentication, showing why key-based access eliminates brute-force attacks.
+
 ## Objective
 
 The objective of this lab was to safely harden SSH by disabling password authentication and root login, while understanding SSH configuration precedence and avoiding administrative lockout through controlled verification.

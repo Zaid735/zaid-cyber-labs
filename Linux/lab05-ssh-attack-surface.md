@@ -1,5 +1,7 @@
 # Lab 05 – SSH Attack Surface Analysis
 
+Shows how network exposure is created and removed by starting and stopping services, reinforcing that processes—not ports—create attack surface.
+
 ## Objective
 
 To understand why SSH, despite being a secure protocol, can become a major attack surface when exposed unnecessarily, and to observe how service exposure, listening interfaces, and attacker behavior affect system security.

@@ -1,5 +1,7 @@
 # Lab 07 – User Enumeration via SSH
 
+Demonstrates how authentication responses can leak valid usernames and why enumeration precedes brute-force attacks.
+
 ## Objective
 
 The objective of this lab was to understand what user enumeration is, how authentication mechanisms can leak information about valid usernames, and why attackers perform enumeration before attempting password attacks.

@@ -1,5 +1,7 @@
 # Lab 08 – Password Authentication vs Key-Based Authentication (SSH)
 
+Compares password-based and key-based authentication, showing why key-based access eliminates brute-force attacks.
+
 ## Objective
 
 The objective of this lab was to understand why password-based SSH authentication is inherently weak at scale, how key-based authentication works, and why replacing guessable credentials with possession-based authentication significantly reduces the attack surface.

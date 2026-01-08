@@ -1,5 +1,7 @@
 # Lab 10 – Firewall vs Service Exposure
 
+Documents safe SSH hardening using configuration precedence while avoiding administrative lockout.
+
 ## Objective
 
 The objective of this lab was to understand the difference between service hardening and network exposure, and to demonstrate how a firewall reduces attack surface by controlling reachability before authentication occurs.
