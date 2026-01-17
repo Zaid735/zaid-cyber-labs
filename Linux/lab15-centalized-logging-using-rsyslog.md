@@ -20,25 +20,72 @@ Log Transport: TCP (Port 514)
 
 ## Commands Used
 
-### Ubuntu (Log Source):
-
+### Ubuntu (Log Source)
 sudo nano /etc/systemd/journald.conf
+
+
+→ Edits the journald configuration to enable forwarding logs to the syslog service.
+
 sudo systemctl restart systemd-journald
+
+
+→ Restarts journald so the new configuration (ForwardToSyslog) takes effect.
+
 sudo nano /etc/rsyslog.conf
+
+
+→ Configures rsyslog to forward system logs to the remote log collector.
+
 sudo systemctl restart rsyslog
+
+
+→ Restarts rsyslog to apply log forwarding and processing rules.
+
 logger "Centralized logging test from Ubuntu"
 
 
-### Kali (Log Collector):
+→ Generates a test log entry to verify local logging and remote log forwarding.
 
+### Kali (Log Collector)
 sudo apt install rsyslog -y
+
+
+→ Installs rsyslog on Kali to enable log collection and storage.
+
 sudo nano /etc/rsyslog.conf
+
+
+→ Enables rsyslog to listen for incoming logs over the network (TCP/UDP).
+
 sudo nano /etc/rsyslog.d/10-remote.conf
+
+
+→ Defines a template and rule to store incoming remote logs in /var/log/remote/.
+
 sudo systemctl restart rsyslog
+
+
+→ Restarts rsyslog to activate network listening and remote log rules.
+
 sudo ufw allow 514/tcp
+
+
+→ Allows incoming TCP log traffic on port 514 through the firewall.
+
 sudo tcpdump -n -i eth1 tcp port 514
+
+
+→ Captures network traffic on the host-only interface to verify logs are received over TCP.
+
 ls /var/log/remote
+
+
+→ Lists centralized log files received from remote systems.
+
 sudo tail /var/log/remote/ubuntu.log
+
+
+→ Displays recent log entries forwarded from the Ubuntu server.
 
 ## Observations
 
