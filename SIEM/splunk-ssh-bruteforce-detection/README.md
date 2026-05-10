@@ -68,13 +68,16 @@ Timeline analysis and attack visualization
 Relationship between prevention controls and telemetry visibility
 
 ## Screenshots
-Failed SSH Events
+### Failed SSH Events
 ![Failed SSH](failed-ssh.png)
-SPL Regex Extraction
+
+### SPL Regex Extraction
 ![Regex Extraction](regex-extraction.png)
-Brute Force Detection
+
+### Brute Force Detection
 ![Brute Force Detection](bruteforce-detection.png)
-Timeline Visualization
+
+### Timeline Visualization
 
 ![Timeline](timeline-visualization.png)
 
