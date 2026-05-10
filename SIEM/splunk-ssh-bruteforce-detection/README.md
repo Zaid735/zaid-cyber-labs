@@ -68,19 +68,22 @@ Timeline analysis and attack visualization
 Relationship between prevention controls and telemetry visibility
 
 ## Screenshots
+
 ### Failed SSH Events
-![Failed SSH](/failed-ssh.png)
+
+![Failed SSH](screenshots/failed-ssh.png)
 
 ### SPL Regex Extraction
-![Regex Extraction](/regex-extraction.png)
+
+![Regex Extraction](screenshots/regex-extraction.png)
 
 ### Brute Force Detection
-![Brute Force Detection](/bruteforce-detection.png)
+
+![Brute Force Detection](screenshots/bruteforce-detection.png)
 
 ### Timeline Visualization
 
-![Timeline](/timeline-visualization.png)
-
+![Timeline](screenshots/timeline-visualization.png)
 ## Conclusion
 
 This lab simulated SSH brute-force activity in a controlled environment and demonstrated how Splunk SIEM can ingest, parse, correlate, and visualize authentication-based attacks using SPL.
