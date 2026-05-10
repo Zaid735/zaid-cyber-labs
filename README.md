@@ -54,7 +54,7 @@ The goal is not just running commands, but analyzing:
 - Mapped to MITRE ATT&CK (T1110 - Brute Force)  
 - Analyzed interaction between detection (Wazuh) and prevention (Fail2Ban)
 
-👉 [View Full Project](Zaid735/wazuh-ssh-bruteforce-detection)
+👉 [View Full Project](https://github.com/Zaid735/wazuh-ssh-bruteforce-detection)
 
   ### Splunk SSH Brute Force Detection
 
