@@ -56,6 +56,16 @@ The goal is not just running commands, but analyzing:
 
 👉 [View Full Project](ADD_YOUR_NEW_REPO_LINK_HERE)
 
+  ### Splunk SSH Brute Force Detection
+
+Ingested Linux authentication logs into Splunk
+Parsed SSH events using SPL and regex extraction
+Simulated brute-force activity from Kali Linux
+Built threshold-based detection logic for failed logins
+Visualized attack timelines and source IP activity
+Investigated the impact of Fail2Ban on telemetry visibility
+  -
+
 ---
 
 ## What This Repository Demonstrates
