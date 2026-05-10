@@ -54,16 +54,16 @@ The goal is not just running commands, but analyzing:
 - Mapped to MITRE ATT&CK (T1110 - Brute Force)  
 - Analyzed interaction between detection (Wazuh) and prevention (Fail2Ban)
 
-👉 [View Full Project](ADD_YOUR_NEW_REPO_LINK_HERE)
+👉 [View Full Project](Zaid735/wazuh-ssh-bruteforce-detection)
 
   ### Splunk SSH Brute Force Detection
 
-Ingested Linux authentication logs into Splunk
-Parsed SSH events using SPL and regex extraction
-Simulated brute-force activity from Kali Linux
-Built threshold-based detection logic for failed logins
-Visualized attack timelines and source IP activity
-Investigated the impact of Fail2Ban on telemetry visibility
+- Ingested Linux authentication logs into Splunk
+- Parsed SSH events using SPL and regex extraction
+- Simulated brute-force activity from Kali Linux
+- Built threshold-based detection logic for failed logins
+- Visualized attack timelines and source IP activity
+- Investigated the impact of Fail2Ban on telemetry visibility
   -
 
 ---
