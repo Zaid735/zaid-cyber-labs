@@ -69,17 +69,17 @@ Relationship between prevention controls and telemetry visibility
 
 ## Screenshots
 ### Failed SSH Events
-![Failed SSH](failed-ssh.png)
+![Failed SSH](/failed-ssh.png)
 
 ### SPL Regex Extraction
-![Regex Extraction](regex-extraction.png)
+![Regex Extraction](/regex-extraction.png)
 
 ### Brute Force Detection
-![Brute Force Detection](bruteforce-detection.png)
+![Brute Force Detection](/bruteforce-detection.png)
 
 ### Timeline Visualization
 
-![Timeline](timeline-visualization.png)
+![Timeline](/timeline-visualization.png)
 
 ## Conclusion
 
