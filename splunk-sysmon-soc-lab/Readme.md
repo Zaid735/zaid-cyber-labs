@@ -122,12 +122,27 @@ Screenshots
 
 ## Screenshots
 
-Examples:
+## Process Creation Events (Event ID 1)
 
-Sysmon Event ID 1
-Encoded PowerShell Detection
-certutil Detection
-DNS Query Events
+![Process Creation](screenshots/eventid1_process_creation.png)
+
+---
+
+## DNS Query Telemetry (Event ID 22)
+
+![DNS Queries](screenshots/dns_query_event22.png)
+
+---
+
+## LOLBin Detection
+
+![LOLBin Detection](screenshots/lolbin_certutil_regsvr32.png)
+
+---
+
+## PowerShell Process Telemetry
+
+![PowerShell Telemetry](screenshots/powershell_process_creation.png)
 
 ## Skills Practiced
 SIEM Operations
