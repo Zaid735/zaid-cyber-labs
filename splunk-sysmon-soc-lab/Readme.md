@@ -124,25 +124,25 @@ Screenshots
 
 ## Process Creation Events (Event ID 1)
 
-![Process Creation](screenshots/eventid1_process_creation.png)
+![Process Creation](Screenshots/eventid1_process_creation.png)
 
 ---
 
 ## DNS Query Telemetry (Event ID 22)
 
-![DNS Queries](screenshots/dns_query_event22.png)
+![DNS Queries](Screenshots/dns_query_event22.png)
 
 ---
 
 ## LOLBin Detection
 
-![LOLBin Detection](screenshots/lolbin_certutil_regsvr32.png)
+![LOLBin Detection](Screenshots/lolbin_certutil_regsvr32.png)
 
 ---
 
 ## PowerShell Process Telemetry
 
-![PowerShell Telemetry](screenshots/powershell_process_creation.png)
+![PowerShell Telemetry](Screenshots/powershell_process_creation.png)
 
 ## Skills Practiced
 SIEM Operations
